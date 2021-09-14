@@ -1,3 +1,11 @@
-body{
-    background-color: #CCCCFF;
+font-family: 'Raleway', sans-serif;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
 }
