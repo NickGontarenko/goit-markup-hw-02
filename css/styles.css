@@ -7,8 +7,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
-  /* background-color: rgb(169, 206, 192); */
   width: 1600px;
 }
 .link {
@@ -17,6 +15,7 @@ body {
 .list {
   list-style-type: none;
 }
+/* -----------------------------------------------------index.html------------------------------------- */
 /* <---------------header----------------> */
 
 .dark-logo {
@@ -74,14 +73,16 @@ body {
   color: var(--primery-white-color);
 }
 .hero-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--primery-white-color);
   background-color: var(--accent-color);
+  border-radius: 4px;
   cursor: pointer;
+  border: none;
 }
 
 /* <---------------features----------------> */
@@ -174,4 +175,41 @@ address {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+/* --------------------------------------------------porfolio.html----------------------------------- */
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-color-tittle);
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.portfolio-subtittle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primery-color-tittle);
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color-text);
 }
